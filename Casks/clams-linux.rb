@@ -10,7 +10,7 @@ cask "clams-linux" do
   desc "Bitcoin accounting infrastructure CLI"
   homepage "https://clams.tech"
  
-  binary "clams"
+  binary "clams-x86_64-unknown-linux-gnu/clams"
 
   zap trash: [
     "~/.clams",
