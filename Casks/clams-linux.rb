@@ -11,4 +11,9 @@ cask "clams-linux" do
   homepage "https://clams.tech"
  
   binary "clams"
+
+  zap trash: [
+    "~/.clams",
+    "~/.config/clams"
+  ]
 end
